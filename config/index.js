@@ -36,7 +36,7 @@ export const config = {
     *   // 所在省份
     *   province: "北京",
     *   // 所在城市
-    *    city: "昌平",
+    *    city: "北京",
     *    // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
     *    openUrl: "https://s.weibo.com/top/summary?Refer=top_hot&topnav=1&wvr=6"
     *  },
@@ -46,7 +46,7 @@ export const config = {
       id: "oYUOp5t2Vrli60zWtDRkT0c6oYm4",
       useTemplateId: "v9s3jEib_OeaESRy4_zazzMJ9ZCjcGTod8tlSN8PcRM",
       province: "北京",
-      city: "昌平",
+      city: "北京",
       openUrl: "https://s.weibo.com/top/summary?Refer=top_hot&topnav=1&wvr=6"
     }
   ],
@@ -77,7 +77,7 @@ export const config = {
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
   PROVINCE: "北京",
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
-  CITY: "昌平",
+  CITY: "北京",
 
   /** 重要节日相关 */
 
