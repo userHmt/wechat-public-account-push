@@ -31,7 +31,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oYUOp5kFtXKbHHz1HdrWTXNk7RO4",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "u4BaSOl95qnUJqgNQGkPVfOg7-zF9V-IEv222VlzImY",
+      useTemplateId: "v9s3jEib_OeaESRy4_zazzMJ9ZCjcGTod8tlSN8PcRM",
       // 所在省份
       province: "北京",
       // 所在城市
@@ -42,7 +42,7 @@ export const config = {
     {
       name: "我", 
       id: "oYUOp5t2Vrli60zWtDRkT0c6oYm4",
-      useTemplateId: "u4BaSOl95qnUJqgNQGkPVfOg7-zF9V-IEv222VlzImY",
+      useTemplateId: "v9s3jEib_OeaESRy4_zazzMJ9ZCjcGTod8tlSN8PcRM",
       province: "北京",
       city: "昌平",
       openUrl: "https://s.weibo.com/top/summary?Refer=top_hot&topnav=1&wvr=6"
@@ -120,23 +120,23 @@ export const config = {
     * keyword是指暴露给测试号的模板字段，填什么就暴露什么, 请注意不要和README的出参表中的字段重复。
     * 比如：keyword: "lover_prattle" ，在测试号中就是 {{ lover_prattle.DATA }} 
     * */
-  SLOT_LIST: [
-    // 这样配置的话，就会每次发送这句话
-    {"keyword": "encourage_oneself", contents: "你主要的问题在于读书太少而想得太多"},
-    // 这样配置的话，就会每次随机选一句话发送
-    {"keyword": "lover_prattle", contents: [
-      "因为太喜欢你，所以看谁都像是情敌。",
-      "申请成为你爱里的永久居民。",
-      "你很傻，你很笨，可我还是很羡慕你，因为你有我",
-      "遇见你，就好像捡到了100斤的运气",
-    ]},
-  ],
+  /** SLOT_LIST: [
+    *// 这样配置的话，就会每次发送这句话
+    *{"keyword": "encourage_oneself", contents: "你主要的问题在于读书太少而想得太多"},
+    *// 这样配置的话，就会每次随机选一句话发送
+    *{"keyword": "lover_prattle", contents: [
+    *  "因为太喜欢你，所以看谁都像是情敌。",
+     * "申请成为你爱里的永久居民。",
+     * "你很傻，你很笨，可我还是很羡慕你，因为你有我",
+    *  "遇见你，就好像捡到了100斤的运气",
+    *]},
+  *],**/
 
   /** 每日一言 */
 
   // 好文节选的内容类型
   // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
-  LITERARY_PREFERENCE: ""
+  // LITERARY_PREFERENCE: ""
 
 
 }
