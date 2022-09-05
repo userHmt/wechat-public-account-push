@@ -75,7 +75,7 @@ export const config = {
   /** 天气相关 */
 
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
-  PROVINCE: "北京市",
+  PROVINCE: "北京",
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
   CITY: "昌平",
 
