@@ -5,8 +5,8 @@ import { toLowerLine, getColor } from './src/utils/index.js'
 
 const main = async () => {
     // 获取accessToken
-    // const accessToken =  await getAccessToken()
-    const accessToken =  ''
+    const accessToken =  await getAccessToken()
+    // const accessToken =  ''
     // 接收的用户
     const users = config.USERS
     // 省份和市
