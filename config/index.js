@@ -44,7 +44,7 @@ export const config = {
     {
       name: "我", 
       id: "oYUOp5t2Vrli60zWtDRkT0c6oYm4",
-      useTemplateId: "v9s3jEib_OeaESRy4_zazzMJ9ZCjcGTod8tlSN8PcRM",
+      useTemplateId: "MbjYZRA9mPZhznFXgfyXdc0eYoCBGTOTyYTHqSJsObI",
       province: "北京",
       city: "北京",
       openUrl: "https://s.weibo.com/top/summary?Refer=top_hot&topnav=1&wvr=6"
